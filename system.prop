@@ -71,6 +71,7 @@ ro.data.large_tcp_window_size=true
 dalvik.vm.boot-dex2oat-threads=4
 dalvik.vm.dex2oat-threads=4
 dalvik.vm.image-dex2oat-threads=4
+dalvik.vm.image-dex2oat-filter=everything
 
 # GPS
 persist.gps.qc_nlp_in_use=1
