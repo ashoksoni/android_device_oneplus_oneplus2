@@ -57,6 +57,10 @@ PRODUCT_PACKAGES += \
   libbt-vendor \
   android.hardware.bluetooth@1.0-impl
 
+# Allow tethering without provisioning app
+PRODUCT_PROPERTY_OVERRIDES += \
+    net.tethering.noprovisioning=true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
