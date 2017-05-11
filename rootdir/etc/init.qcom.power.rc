@@ -1,3 +1,5 @@
+import /init.spectrum.rc
+
 on boot
     # execute script to set initial CPU settings
     # don't run as a service to avoid race conditions
