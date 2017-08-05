@@ -156,3 +156,7 @@ persist.timed.enable=true
 # Wifi
 persist.data.iwlan.enable=true
 persist.debug.wfd.enable=1
+
+# Silence debug
+persist.ims.enableADBLogs=0
+persist.ims.enableDebugLogs=0
