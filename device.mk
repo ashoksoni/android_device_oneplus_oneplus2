@@ -133,6 +133,8 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     android.hardware.camera.provider@2.4-impl \
     libshim_atomic \
+    libqdutils \
+    libqdMetaData \
     camera.msm8994 \
     mm-qcamera-app \
     libshim_camera \
