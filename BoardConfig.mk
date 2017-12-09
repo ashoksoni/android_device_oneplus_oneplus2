@@ -35,9 +35,6 @@ POLLY_OPTS := true
 LOCAL_CLANG_LTO := true
 TARGET_MORE_OPTIMIZATION := true
 
-# Use Snapdragon LLVM, if available
-TARGET_USE_SDCLANG := true
-
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
 
